@@ -1,0 +1,54 @@
+[{
+  "name": "废材小大",
+  "time": "12-24",
+  "pic":"image/touxiang.jpg",
+  "replay":"老哥们,这是真的吗?",
+  "tupian":{
+    "one":"image/pic1.png",
+    "two":"image/pic2.jpg"
+  },
+  "bar":"李毅吧",
+  "zhuanfa":114,
+  "pinglun":670,
+  "zang":3340
+  }, {
+  "name": "发大",
+  "time": "12-24",
+  "pic":"image/touxiang.jpg",
+  "replay":"老哥们,这是真的吗?",
+  "tupian":{
+    "one":"image/pic1.png",
+    "two":"image/pic2.jpg"
+  },
+  "bar":"搞笑吧",
+  "zhuanfa":144,
+  "pinglun":6660,
+  "zang":3540
+  }, {
+  "name": "更热",
+  "time": "12-24",
+  "pic":"image/touxiang.jpg",
+  "replay":"老哥们,这是真的吗?",
+  "tupian":{
+    "one":"image/pic1.png",
+    "two":"image/pic2.jpg"
+  },
+  "bar":"发发发吧",
+  "zhuanfa":1454,
+  "pinglun":344,
+  "zang":354
+  }, {
+  "name": "大大的份上芬芳",
+  "time": "12-24",
+  "pic":"image/touxiang.jpg",
+  "replay":"老哥们,这是真的吗?",
+  "tupian":{
+    "one":"image/pic1.png",
+    "two":"image/pic2.jpg"
+  },
+  "bar":"你好吧",
+  "zhuanfa":1454,
+  "pinglun":344,
+  "zang":354
+}
+]

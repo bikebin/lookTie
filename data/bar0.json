@@ -1,0 +1,84 @@
+{
+ "barhead":[
+   {
+     "id": "0",
+     "barPic":"image/IMG_0652.JPG",
+     "barName":"詹姆斯吧",
+     "barInfo":"特权【火】 单吧会员隆重上线"
+   }
+ ],
+"barItems":[
+
+  {
+
+    "name": "你的斌哥",
+    "replay":"请教你大佬：斌哥?",
+    "time": "12-24",
+    "image": "image/IMG_0243.JPG",
+      "pic": {
+      "one": "image/IMG_0652.JPG",
+      "two": "image/IMG_0549.JPG"
+      },
+    "bar":"兵哥吧",
+    "zhuanfa":43414,
+    "pinglun":340,
+    "zang":3230
+  },{
+
+  "name": "你的斌哥",
+  "replay":"请教你大佬：斌哥?",
+  "time": "12-24",
+  "image": "image/IMG_0243.JPG",
+  "pic": {
+    "one": "image/IMG_0652.JPG",
+    "two": "image/IMG_0549.JPG"
+  },
+  "bar":"兵哥吧",
+  "zhuanfa":43414,
+  "pinglun":340,
+  "zang":3230
+},{
+
+  "name": "你的斌哥",
+  "replay":"请教你大佬：斌哥?",
+  "time": "12-24",
+  "image": "image/IMG_0243.JPG",
+  "pic": {
+    "one": "image/IMG_0652.JPG",
+    "two": "image/IMG_0549.JPG"
+  },
+  "bar":"兵哥吧",
+  "zhuanfa":43414,
+  "pinglun":340,
+  "zang":3230
+},{
+
+  "name": "你的斌哥",
+  "replay":"请教你大佬：斌哥?",
+  "time": "12-24",
+  "image": "image/IMG_0243.JPG",
+  "pic": {
+    "one": "image/IMG_0652.JPG",
+    "two": "image/IMG_0549.JPG"
+  },
+  "bar":"兵哥吧",
+  "zhuanfa":43414,
+  "pinglun":340,
+  "zang":3230
+},{
+  "id": "0",
+  "name": "你的斌哥",
+  "replay":"请教你大佬：斌哥?",
+  "time": "12-24",
+  "image": "image/IMG_0243.JPG",
+  "pic": {
+    "one": "image/IMG_0652.JPG",
+    "two": "image/IMG_0549.JPG"
+  },
+  "bar":"兵哥吧",
+  "zhuanfa":43414,
+  "pinglun":340,
+  "zang":3230
+}
+]
+}

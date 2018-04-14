@@ -1,0 +1,34 @@
+<div ng-repeat="bar in barcontent.data.barhead">
+    <div class="clearfix barcontent" >
+        <div class="barcontent-head " ><i class="fa fa-angle-left" ng-click="back()"></i><span class="wow zoomInDown" ng-bind="bar.barName"></span></div>
+    </div>
+    <ul>
+        <li class="fl pic"><img ng-src="{{bar.barPic}}" alt=""/></li><li class="fl person-name">
+        <p ng-bind="bar.barName"></p>
+        <p class="time" ng-bind="bar.barInfo"></p>
+    </li><li class="fl delect"><span>x</span></li>
+    </ul>
+</div>
+    <div class="bar" ng-repeat="item in barcontent.data.barItems">
+        <ul>
+            <li class="fl pic"><img ng-src="{{item.image}}" alt=""/></li><li class="fl person-name">
+            <p ng-bind="item.name"></p>
+            <p class="time" ng-bind="item.time"></p>
+        </li><li class="fl delect"><span>x</span></li>
+        </ul>
+        <p ng-bind="item.replay"></p>
+        <img class="pic-share" ng-src="{{item.pic.two}}" alt=""/><img class="pic-share" ng-src="{{item.pic.one}}" alt=""/>
+        <div>
+            <ul class="pinlun">
+                <li class="bar" ng-bind="item.bar"></li>
+                <li><i class="fa fa-external-link"></i> {{item.zhuanfa}}</li>
+                <li><i class="fa fa-commenting-o"></i> {{item.pinglun}}</li>
+                <li><i class="fa fa-play-circle-o"></i> {{item.zang}}</li>
+            </ul>
+        </div>
+
+    </div>
+
+
+
+<div tie-foot ></div>

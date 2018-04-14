@@ -1,0 +1,20 @@
+<div class="content" ng-repeat="item in con.data">
+    <ul>
+        <li class="fl pic"><img ng-src="{{item.pic}}" alt=""/></li><li class="fl person-name">
+            <p ng-bind="item.name"></p>
+            <p class="time" ng-bind="item.time"></p>
+        </li><li class="fl delect"><span>x</span></li>
+    </ul>
+    <p ng-bind="item.replay"></p>
+    <img class="pic-share" ng-src="{{item.tupian.two}}" alt=""/><img class="pic-share" ng-src="{{item.tupian.one}}" alt=""/>
+    <div>
+        <ul class="pinlun">
+            <li class="bar" ng-bind="item.bar"></li>
+            <li><i class="fa fa-external-link"></i> {{item.zhuanfa}}</li>
+            <li><i class="fa fa-commenting-o"></i> {{item.pinglun}}</li>
+            <li><i class="fa fa-play-circle-o"></i> {{item.zang}}</li>
+        </ul>
+    </div>
+
+
+</div>

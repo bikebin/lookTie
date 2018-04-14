@@ -1,0 +1,99 @@
+@import 'template/head.less';
+@import 'template/content.less';
+@import 'template/foot.less';
+@import 'template/comebar.less';
+@import 'template/swiper.less';
+@import 'template/live.less';
+@import 'template/livesort.less';
+@import 'template/mine.less';
+@import 'template/plus.less';
+@import 'template/main.less';
+@import 'template/login.less';
+@import 'template/bar.less';
+@import 'template/text.less';
+
+body,html {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+
+}
+body {
+  .fs(14);
+}
+html {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.fs(@px){
+  font-size: unit(@px / 37.5, rem);
+}
+.w(@px){
+  width: unit(@px / 37.5, rem);
+}
+.h(@px){
+  height: unit(@px / 37.5, rem);
+}
+.lh(@px){
+  line-height: unit(@px / 37.5, rem);
+}
+.mt(@px){
+  margin-top: unit(@px / 37.5, rem);
+}
+.mr(@px){
+  margin-right: unit(@px / 37.5, rem);
+}
+.mb(@px){
+  margin-bottom: unit(@px / 37.5, rem);
+}
+.ml(@px){
+  margin-left: unit(@px / 37.5, rem);
+}
+.pt(@px){
+  padding-top: unit(@px / 37.5, rem);
+}
+.pr(@px){
+  padding-right: unit(@px / 37.5, rem);
+}
+.pb(@px){
+  padding-bottom: unit(@px / 37.5, rem);
+}
+.pl(@px){
+  padding-left: unit(@px / 37.5, rem);
+}
+.top(@px){
+  top: unit(@px / 37.5, rem);
+}
+.bottom(@px){
+  bottom: unit(@px / 37.5, rem);
+}
+.left(@px){
+  left: unit(@px / 37.5, rem);
+}
+.right(@px){
+  right: unit(@px / 37.5, rem);
+}
+.clear {
+  clear: both;
+}
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.p-r {
+  position: relative;
+}
+.p-a {
+  position: absolute;
+}
+
+
+

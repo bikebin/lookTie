@@ -1,0 +1,20 @@
+<div class="comebar clearfix">
+    <div class="comebar-header ">
+      <i class="fa fa-align-justify"></i>  <p class="wow bounceInRight">进吧</p>
+    </div>
+</div>
+        <div class="search">
+            <i class="fa fa-search"></i><input type="text" placeholder="大家都在搜: 谁有跳一跳辅助"/>
+        </div>
+        <ul class="seebar">
+            <li class="fl mine-bar">我关注的吧</li>
+            <li class="fl paixu">长按可调整排序</li>
+            <li class="fl print">编辑</li>
+        </ul>
+        <div ui-sref="bar({id:$index})" class="bar-num clearfix wow fadeInRight" data-wow-duration="{{$index*0.05+'s'}}" ng-repeat="item in barsort.data" >
+            <p ui-sref="combarnum"  ng-bind="item.barname"></p><i ng-bind="item.dengji" class=""></i>
+
+        </div>
+
+<div tie-plus style="display:none" class="tab" ></div>
+<div tie-foot></div>

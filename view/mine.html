@@ -1,0 +1,83 @@
+<!--未登录的内容-->
+<div class="denglu " ng-hide="name">
+    <div class="denglu-head "><i class="fa fa-angle-left" ng-click="back()"></i><span class="wow zoomInUp">登录</span></div>
+    <img class="baidu-logo" src="image/baidu.png" alt=""/>
+    <h1>欢迎登录百度账号</h1>
+    <div class="form-list" >
+        <div class="left-div fl"></div>
+        <form name="Form" novalidate>
+            <label for="phone" class="p-r">
+                <p class="tip">用户名/手机号/邮箱</p>
+                <input  type="number" name="username" required id="phone"  ng-model="user.username" /><img class="zhanghao" src="image/zhanghao.png" alt=""/>
+                <span  ng-show="Form.userName.$dirty && angularForm.userName.$error.required">*</span>
+                <span  ng-show="Form.userName.$error.number">只能输入数字</span>
+                <span  ng-show="Form.userName.$error.minlength">最少为6位数</span>
+            </label>
+            <label for="password" class="p-r">
+                <p class="tip">请输入登录密码</p>
+                <input  type="password" id="password"  ng-model="user.password" name="password" validator="required,password"/><img class="mima" src="image/mima.png" alt=""/>
+            </label>
+            <ul class="prompt">
+                <li>短信快捷键  &nbsp;<span></span>&nbsp;</li>
+                <li>更多</li>
+                <li class="fr">忘记密码</li>
+            </ul>
+            <input class="submit" type="submit" validation-submit="form" value="登录" />
+        </form>
+        <div class="right-div fr"></div>
+    </div>
+    <div class="trademark">
+        <img class="fl" src="image/qq.png" alt=""/>
+        <img src="image/weixin.png" alt=""/>
+        <img class="fr" src="image/weibo.png" alt=""/>
+    </div>
+</div>
+
+<!--登录后的内容-->
+<div ng-if="name">
+    <div class="mine clearfix">
+        <div class="mine-head">
+            <p class=" wow bounceInRight">我的</p><i class="fa fa-shopping-bag"></i><i class="fa fa-cog fa-lg" ng-click="logout()"></i>
+        </div>
+    </div>
+
+    <ul class="mine-ziliao" ng-click="">
+        <li class="fl pic "><img src="{{image}}" alt=""/></li>
+        <li class="fl person-name p-r">
+            <i class="fa fa-mars-stroke-v p-a"></i>
+            <p ng-bind="name" ></p>
+            <p class="introduce">简介:签名是一种态度，我想我可以更酷</p>
+        </li>
+        <li class="fl jiantou"><span>></span></li>
+    </ul>
+    <ul class="mine-info">
+        <li><p>3</p><span>关注</span></li>
+        <li><p>26</p><span>粉丝</span></li>
+        <li><p>30</p><span>关注的吧</span></li>
+        <li><p>29</p><span>帖子</span></li>
+    </ul>
+    <ul class="mine-function">
+        <li><i class="fa fa-star-o"></i>我的收藏 <span>> </span></li>
+        <li><i class="fa fa-clock-o"></i>浏览历史 <span>> </span></li>
+        <li><i class="fa fa-users"></i>我的群组 <span>> </span></li>
+    </ul>
+    <ul class="mine-function">
+        <li><i class="fa fa-dropbox"></i>会员中心 <span>> </span></li>
+        <li><i class="fa fa-gift"></i>我的礼物 <span>> </span></li>
+        <li><i class="fa fa-ticket"></i>卡包 <span>> </span></li>
+
+    </ul>
+    <ul class="mine-function">
+        <li><i class="fa fa-television"></i>直播 <span>> </span></li>
+        <li><i class="fa fa-pencil"></i>热议 <span>> </span></li>
+    </ul>
+    <ul class="mine-function">
+        <li><i class="fa fa-handshake-o"></i>服务中心 <span>> </span></li>
+        <li><i class="fa fa-commenting-o"></i>热议 <span>> </span></li>
+    </ul>
+    <ul class="mine-function">
+        <li><i class="fa fa-ellipsis-h"></i>服务中心（消费记录,爱豆榜,书架） <span>> </span></li>
+    </ul>
+    <div tie-plus style="display:none" class="tab" ></div>
+    <div tie-foot></div>
+</div>

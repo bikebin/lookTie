@@ -1,0 +1,28 @@
+<div class="live-clearfix ">
+    <p class="live-head wow bounceInRight">直播</p>
+</div>
+<swipers data="swiper" ></swipers>
+<livesort data="liveSort" ></livesort>
+<ul class="pai">
+    <li class="fl ">排行榜</li>
+    <li class="fr">快来看，你的排名在这里哦 ></li>
+</ul>
+<ul class="hot">
+    <li class="fl ">热门</li>
+    <li class="fr">查看更多 ></li>
+</ul>
+<ul class="movies clearfix">
+    <li ng-repeat="live in liveMoive.data">
+        <video  width="180" height="180" ng-src="{{live.url}}" controls="controls"></video>
+        <p ng-bind="live.info"></p>
+    </li>
+    <!--<li >-->
+        <!--<video  width="180" height="180" src="video/movie01.mp4"  controls="controls" ></video>-->
+    <!--</li>-->
+    <!--<li >-->
+        <!--<video  width="180" height="180" src="video/movie01.mp4"  controls="controls" ></video>-->
+    <!--</li>-->
+</ul>
+<div tie-plus style="display:none" class="tab" ></div>
+
+<div tie-foot></div>
